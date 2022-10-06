@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(13, 14, 52, 0.92);
+    height: 100px;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    height:100px;
+    width: 100px;
+    padding: 10px 10px 10px 100px;
+}
+
+ul{
+    display: flex;
+    gap: 16px;
+    padding: 10px 150px 10px 10px;
+    
+}
+
+li,
+a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: 'Libre Baskerville', serif;
+}
