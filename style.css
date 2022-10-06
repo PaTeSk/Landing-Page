@@ -36,3 +36,27 @@ a{
     font-size: 15px;
     font-family: 'Libre Baskerville', serif;
 }
+
+.banner-pos{    
+   
+    display: flex;
+    padding: auto;
+    margin: auto;
+}
+
+
+.banner{
+    position: relative;
+    display: flex;
+    height: 400px;
+    width: 100%;
+}
+
+.img-content{
+    display: flex;
+    position: absolute; 
+    flex-direction: column;
+}
+
+
+
